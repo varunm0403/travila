@@ -1,6 +1,6 @@
 [
     {
-     "image" : "/assets/flights/flight.png.svg",
+     "image" : "assets/flights/flight.png.svg",
      "date_from" : "9 JUN 2024",
      "from" : "New-York",
      "rate" : "$288.15",
@@ -9,7 +9,7 @@
      "date_to":"9 JUN 2024"
     },
     {
-        "image" : "/assets/flights/flight2.png.svg",
+        "image" : "assets/flights/flight2.png.svg",
         "date_from" : "9 JUN 2024",
         "from" : "London",
         "rate" : "$288.15",
@@ -17,7 +17,7 @@
         "to":"Paris",
         "date_to":"9 JUN 2024"
        }, {
-        "image" : "/assets/flights/flight4.png.svg",
+        "image" : "assets/flights/flight4.png.svg",
         "date_from" : "9 JUN 2024",
         "from" : "India",
         "rate" : "$288.15",
@@ -26,7 +26,7 @@
         "date_to":"9 JUN 2024"
        },
        {
-        "image" : "/assets/flights/flight5.png.svg",
+        "image" : "assets/flights/flight5.png.svg",
         "date_from" : "9 JUN 2024",
         "from" : "Sydney",
         "rate" : "$288.15",
@@ -35,7 +35,7 @@
         "date_to":"9 JUN 2024"
        },
        {
-        "image" : "/assets/flights/flight.png.svg",
+        "image" : "assets/flights/flight.png.svg",
         "date_from" : "9 JUN 2024",
         "from" : "New-York",
         "rate" : "$288.15",
@@ -44,7 +44,7 @@
         "date_to":"9 JUN 2024"
        },
        {
-           "image" : "/assets/flights/flight2.png.svg",
+           "image" : "assets/flights/flight2.png.svg",
            "date_from" : "9 JUN 2024",
            "from" : "London",
            "rate" : "$288.15",
@@ -52,7 +52,7 @@
            "to":"Paris",
            "date_to":"9 JUN 2024"
           }, {
-           "image" : "/assets/flights/flight4.png.svg",
+           "image" : "assets/flights/flight4.png.svg",
            "date_from" : "9 JUN 2024",
            "from" : "India",
            "rate" : "$288.15",
@@ -61,7 +61,7 @@
            "date_to":"9 JUN 2024"
           },
           {
-           "image" : "/assets/flights/flight5.png.svg",
+           "image" : "assets/flights/flight5.png.svg",
            "date_from" : "9 JUN 2024",
            "from" : "Sydney",
            "rate" : "$288.15",

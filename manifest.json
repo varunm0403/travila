@@ -1,7 +1,7 @@
 {
     "name": "Travila",
     "short_name": "TVL",
-    "start_url": "index.html",
+    "start_url": "https://varunm0403.github.io/travila/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",

@@ -1,0 +1,27 @@
+    {
+        "bg_image":"assets/love/img-love.png.svg",
+        "heading":"You will Love Us",
+        "sub_heading":"Because more than 268 other customers have loved us too",
+    "cards": [
+    {
+        "icon":"assets/love/security.svg.svg",
+        "title":"Security Assistance",
+        "content":"Demonstrates commitment to user data security through encryption and secure payment practices"
+    },
+    {
+        "icon":"assets/love/support.svg.svg",
+        "title":"Customer Support",
+        "content":" Dedicated support team ensuring smooth customer experiences and quick resolutions."
+    },
+    {
+        "icon":"assets/love/policy.svg.svg",
+        "title":"Transparent Policies",
+        "content":" Clear and fair policies ensuring trust and transparency in all interactions."
+    },
+    {
+        "icon":"assets/love/repu.svg.svg",
+        "title":"Reputable Affiliations",
+        "content":" Partnered with trusted organizations to enhance credibility and security."
+    }
+]
+    }

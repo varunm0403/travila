@@ -1,0 +1,27 @@
+[
+    {
+        "faqs_no":"01",
+        "faqs_que":" How do I make a reservation on your website",
+        "faqs_ans":" Provide a step-by-step guide on how users can browse and book travel services on your platform. Include information on searching for destinations, selecting dates, choosing accommodation, and completing the booking process. Mention any special features or tools that can help users find the best deals."
+    },
+    {
+        "faqs_no":"02",
+        "faqs_que":" What documents do I need for my trip, and how do I obtain them?",
+        "faqs_ans":"The required documents depend on your destination and type of travel but typically include a valid passport (with at least six months of validity), a visa (if required for your destination), flight tickets, hotel booking confirmation, travel insurance, and health certificates (if applicable); you can obtain these through government portals, airline websites, travel agencies, and insurance providers."
+    },
+    {
+        "faqs_no":"03",
+        "faqs_que":" In the event that I need to modify or cancel my reservation, what are the policies in place?",
+        "faqs_ans":"Modifications and cancellations are subject to the provider’s policy; flight changes or cancellations may incur fees, hotel bookings may offer free cancellation for flexible reservations but non-refundable bookings may not allow changes, and package/tour modifications depend on the provider's terms—visit the 'My Bookings' section on our website to check available options and applicable charges"
+    },
+    {
+        "faqs_no":"04",
+        "faqs_que":"Can you specify the types of credit/debit cards, digital wallets, or other online payment methods accepted?",
+        "faqs_ans":"We support multiple payment methods, including major credit and debit cards (Visa, Mastercard, American Express, Discover), digital wallets (PayPal, Google Pay, Apple Pay), UPI, and bank transfers (where available), and for certain bookings, we also offer 'Buy Now, Pay Later' options through selected providers."
+    },
+    {
+        "faqs_no":"05",
+        "faqs_que":"What are the working hours, and what can I expect in terms of response times?",
+        "faqs_ans":"Our customer support operates Monday to Friday from 9:00 AM to 8:00 PM and Saturday to Sunday from 10:00 AM to 6:00 PM, with response times varying by channel—live chat and phone support provide instant responses, email inquiries are typically answered within 24 hours, and social media queries are addressed within 48 hours; for urgent issues, we recommend using live chat or calling our support team."
+    }
+]

@@ -1,0 +1,137 @@
+[
+    {
+     "tag" : "Top Rated",
+     "image" : "/assets/recommended/journey2.png.svg",
+     "duration" : "2 days 3 nights",
+     "guests": "2-4 guests",
+     "rate":"$148.25",
+     "title1" : "California Sunset/Twilight",
+     "title2": "Boat Cruise"
+    },
+    {
+        "tag" : "Top Rated",
+        "image" : "/assets/recommended/journey3.png.svg",
+        "duration" : "2 days 3 nights",
+        "guests": "2-4 guests",
+        "rate":"$148.25",
+        "title1" : "NYC: Food Tastings and",
+        "title2": "Cultural Tours"
+    },
+       {
+        "tag" : "Top Rated",
+        "image" : "/assets/recommended/journey4.png.svg",
+        "duration" : "2 days 3 nights",
+        "guests": "2-4 guests",
+        "rate":"$148.25",
+        "title1" : "Grand Canyon Horse Shoe",
+        "title2": "Bend 2 Days"
+       },
+       {
+        "tag" : "Top Rated",
+        "image" : "/assets/recommended/journey2.png.svg",
+        "duration" : "2 days 3 nights",
+        "guests": "4-6 guests",
+        "rate":"$148.25",
+        "title1" : "California Sunset/Twilight",
+        "title2": "Boat Cruise"
+       },
+       {
+           "tag" : "Top Rated",
+           "image" : "/assets/recommended/journey3.png.svg",
+           "duration" : "2 days 3 nights",
+           "guests": "4-6 guests",
+           "rate":"$148.25",
+           "title1" : "NYC: Food Tastings and",
+           "title2": "Cultural Tours"
+       },
+          {
+           "tag" : "Top Rated",
+           "image" : "/assets/recommended/journey4.png.svg",
+           "duration" : "2 days 3 nights",
+           "guests": "4-6 guests",
+           "rate":"$148.25",
+           "title1" : "Grand Canyon Horse Shoe",
+           "title2": "Bend 2 Days"
+          },
+          {
+            "tag" : "Top Rated",
+            "image" : "/assets/recommended/journey2.png.svg",
+            "duration" : "2 days 3 nights",
+            "guests": "6-8 guests",
+            "rate":"$148.25",
+            "title1" : "California Sunset/Twilight",
+            "title2": "Boat Cruise"
+           },
+           {
+               "tag" : "Top Rated",
+               "image" : "/assets/recommended/journey3.png.svg",
+               "duration" : "2 days 3 nights",
+               "guests": "4-6 guests",
+               "rate":"$148.25",
+               "title1" : "NYC: Food Tastings and",
+               "title2": "Cultural Tours"
+           },
+              {
+               "tag" : "Top Rated",
+               "image" : "/assets/recommended/journey4.png.svg",
+               "duration" : "2 days 3 nights",
+               "guests": "6-8 guests",
+               "rate":"$148.25",
+               "title1" : "Grand Canyon Horse Shoe",
+               "title2": "Bend 2 Days"
+              },
+               {
+                 "tag" : "Top Rated",
+                 "image" : "/assets/recommended/journey2.png.svg",
+                 "duration" : "2 days 3 nights",
+                 "guests": "6-8 guests",
+                 "rate":"$148.25",
+                 "title1" : "California Sunset/Twilight",
+                 "title2": "Boat Cruise"
+                },
+                {
+                    "tag" : "Top Rated",
+                    "image" : "/assets/recommended/journey3.png.svg",
+                    "duration" : "2 days 3 nights",
+                    "guests": "4-6 guests",
+                    "rate":"$148.25",
+                    "title1" : "NYC: Food Tastings and",
+                    "title2": "Cultural Tours"
+                },
+                   {
+                    "tag" : "Top Rated",
+                    "image" : "/assets/recommended/journey4.png.svg",
+                    "duration" : "2 days 3 nights",
+                    "guests": "6-8 guests",
+                    "rate":"$148.25",
+                    "title1" : "Grand Canyon Horse Shoe",
+                    "title2": "Bend 2 Days"
+                   },
+                   {
+                    "tag" : "Top Rated",
+                    "image" : "/assets/recommended/journey2.png.svg",
+                    "duration" : "2 days 3 nights",
+                    "guests": "6-8 guests",
+                    "rate":"$148.25",
+                    "title1" : "California Sunset/Twilight",
+                    "title2": "Boat Cruise"
+                   },
+                   {
+                       "tag" : "Top Rated",
+                       "image" : "/assets/recommended/journey3.png.svg",
+                       "duration" : "2 days 3 nights",
+                       "guests": "4-6 guests",
+                       "rate":"$148.25",
+                       "title1" : "NYC: Food Tastings and",
+                       "title2": "Cultural Tours"
+                   },
+                      {
+                       "tag" : "Top Rated",
+                       "image" : "/assets/recommended/journey4.png.svg",
+                       "duration" : "2 days 3 nights",
+                       "guests": "6-8 guests",
+                       "rate":"$148.25",
+                       "title1" : "Grand Canyon Horse Shoe",
+                       "title2": "Bend 2 Days"
+                      }
+ ]

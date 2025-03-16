@@ -1,0 +1,61 @@
+[
+    {
+        "image":"assets/destinations/popular.png.svg",
+        "title":"Sydney",
+        "tours":"356 Tours, 248 Activities"
+    },
+    {
+        "image":"assets/destinations/popular2.png.svg",
+        "title":"London",
+        "tours":"356 Tours, 248 Activities"
+    }, {
+        "image":"assets/destinations/popular3.png.svg",
+        "title":"New-York",
+        "tours":"356 Tours, 248 Activities"
+    }, {
+        "image":"assets/destinations/popular4.png.svg",
+        "title":"India",
+        "tours":"356 Tours, 248 Activities"
+    }, {
+        "image":"assets/destinations/popular5.png.svg",
+        "title":"AmsterDam",
+        "tours":"356 Tours, 248 Activities"
+    }, {
+        "image":"assets/destinations/popular6.png.svg",
+        "title":"Ottawa",
+        "tours":"356 Tours, 248 Activities"
+    }, {
+        "image":"assets/destinations/popular7.png.svg",
+        "title":"Paris",
+        "tours":"356 Tours, 248 Activities"
+    },{
+        "image":"assets/destinations/popular.png.svg",
+        "title":"Sydney",
+        "tours":"356 Tours, 248 Activities"
+    },
+    {
+        "image":"assets/destinations/popular2.png.svg",
+        "title":"London",
+        "tours":"356 Tours, 248 Activities"
+    }, {
+        "image":"assets/destinations/popular3.png.svg",
+        "title":"New-York",
+        "tours":"356 Tours, 248 Activities"
+    }, {
+        "image":"assets/destinations/popular4.png.svg",
+        "title":"India",
+        "tours":"356 Tours, 248 Activities"
+    }, {
+        "image":"assets/destinations/popular5.png.svg",
+        "title":"AmsterDam",
+        "tours":"356 Tours, 248 Activities"
+    }, {
+        "image":"assets/destinations/popular6.png.svg",
+        "title":"Ottawa",
+        "tours":"356 Tours, 248 Activities"
+    }, {
+        "image":"assets/destinations/popular7.png.svg",
+        "title":"Paris",
+        "tours":"356 Tours, 248 Activities"
+    }
+]

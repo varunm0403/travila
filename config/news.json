@@ -1,0 +1,26 @@
+[
+   {
+    "tag" : "Cultural",
+    "image" : "/assets/news/news.png.svg",
+    "date" : "2021-06-01",
+    "duration" : "6 mins",
+    "comments" : "38 comments",
+    "title" : " Ultimate Travel Planning Guide: 10 Tips for a Seamless Journey"
+   },
+   {
+    "tag" : "Travel",
+    "image" : "/assets/news/news2.png.svg",
+    "date" : "2021-06-01",
+    "duration" : "6 mins",
+    "comments" : "38 comments",
+    "title" : "Top 10 Travel Hacks for Budget-Conscious Adventurers"
+   },
+   {
+    "tag" : "Discovery",
+    "image" : "/assets/news/news3.png.svg",
+    "date" : "2021-06-01",
+    "duration" : "6 mins",
+    "comments" : "38 comments",
+    "title" : "Discovering Hidden Gems: 10 Off-the-Beaten-Path Travel Tips"
+   }
+]

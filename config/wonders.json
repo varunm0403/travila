@@ -1,0 +1,44 @@
+[   
+    {
+        "name": "Eiffel tower",
+        "tours" : "356 tours",
+        "image" :"assets/wonders/eiffel-tower.png.svg"
+    },
+    {
+        "name": "Machu Picchu",
+        "tours" : "356 tours",
+        "image" :"assets/wonders/MachuPicchu.png.svg"
+    },
+    {
+        "name": "Great Wall",
+        "tours" : "356 tours",
+        "image" :"assets/wonders/GreatWall.png.svg"
+    },
+    {
+        "name": "Liberty",
+         "tours" :"356 tours",
+         "image" : "assets/wonders/StatueofLiberty.png.svg"
+    },
+    {
+        "name": "Taj Mahal",
+        "tours" : "356 tours", 
+        "image":"assets/wonders/TajMahal.png.svg"
+    },
+    {
+        "name": "Opera House",
+        "tours" : "356 tours", 
+         "image":"assets/wonders/OperaHouse.png.svg"
+    },
+    {
+        "name": "Colosseum",
+        "tours" : "356 tours", 
+         "image":"assets/wonders/Colosseum.png.svg"
+    },
+    {
+        "name": "Grand Canyon",
+        "tours" : "356 tours", 
+        "image":"assets/wonders/GrandCanyon.png.png"    
+    }
+
+
+]

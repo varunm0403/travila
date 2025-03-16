@@ -1,4 +1,4 @@
-{
+[{
     "support_bg_image":"assets/support/1f9efc6870474192e9bf919a22cda642.png",
     "support_1":"assets/support/support.png.svg",
     "support_2":"assets/support/support2.png.svg",
@@ -6,3 +6,4 @@
     "support_explore":"assets/support/1a287f60104998e0535df0c19a7bea5a.png",
     "support_bg":"assets/support/img-travel.png.svg"
 }
+]

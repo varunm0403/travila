@@ -3,9 +3,6 @@ const urlsToCache = [
   "/",
   "/index.html",
   "/script.js",
-  "/style.css", // Ensure CSS is cached
-  "/icons/icon-192x192.png",
-  "/icons/icon-512x512.png"
 ];
 
 // Install event: Cache resources

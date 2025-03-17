@@ -421,7 +421,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       const data = await response.json();
   
       const section = document.querySelector(".support_section"); // Target the section
-      section.style.backgroundImage = `url('${data.support_bg_image}')`;
+      //section.style.backgroundImage = `url('${data.support_bg_image}')`;
   
       document.querySelector(".support_1").src = data.support_1;
       document.querySelector(".support_2").src = data.support_2;

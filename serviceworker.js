@@ -1,26 +1,41 @@
 const CACHE_NAME = "pwa-cache-v1";
 const urlsToCache = [
+  "/",
   "/index.html",
   "/script.js",
-  "assets"
+  "/style.css", // Ensure CSS is cached
+  "/icons/icon-192x192.png",
+  "/icons/icon-512x512.png"
 ];
 
+// Install event: Cache resources
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(urlsToCache);
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(urlsToCache))
+      .catch((error) => console.error("Cache addAll failed:", error))
+  );
+});
+
+// Activate event: Clean up old caches
+self.addEventListener("activate", (event) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cache) => {
+          if (cache !== CACHE_NAME) {
+            return caches.delete(cache);
+          }
+        })
+      );
     })
   );
 });
 
-self.addEventListener("install", (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(async (cache) => {
-      try {
-        await cache.addAll(urlsToCache);
-      } catch (error) {
-        console.error("Cache addAll failed:", error);
-      }
+// Fetch event: Serve from cache, then fetch from network if unavailable
+self.addEventListener("fetch", (event) => {
+  event.respondWith(
+    caches.match(event.request).then((response) => {
+      return response || fetch(event.request);
     })
   );
 });

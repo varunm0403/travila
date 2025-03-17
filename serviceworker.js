@@ -2,7 +2,8 @@ const CACHE_NAME = "pwa-cache-v1";
 const urlsToCache = [
   "index.html",
   "script.js",
-  "applogo.png"
+  "/icons/icon-192x192.png",
+  "/icons/icon-512x512.png"
 ];
 
 // Install event: Cache resources

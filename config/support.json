@@ -1,7 +1,7 @@
 {
-    "support_bg":"assets/support/img-travel.png.svg",
     "support_1":"assets/support/support.png.svg",
     "support_2":"assets/support/support2.png.svg",
+    "support_best":"assets/support/1a8f76b1f0664daf6e50bce5d93eaebc.png",
     "support_explore":"assets/support/1a287f60104998e0535df0c19a7bea5a.png",
-    "support_best":"assets/support/1a8f76b1f0664daf6e50bce5d93eaebc.png"
+    "support_bg":"assets/support/img-travel.png.svg"
 }

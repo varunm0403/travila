@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class = "overflow-x-hidden">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -215,14 +215,14 @@
       </section>
   
     </section>
-    <button class="lg:hidden text-2xl" id="menuToggle"><i class="fa-solid fa-bars"></i></button>
+    <button class="lg:hidden text-2xl" id="menuToggle" aria-label="darkmode"><i class="fa-solid fa-bars"></i></button>
 </nav>
 <section id="mobileMenu" class="fixed left-0 h-full w-64 bg-white shadow-lg p-4 pl-8 flex flex-col gap-4 transform -translate-x-full transition-transform overflow-y-auto z-10">
-    <button id="closeMenu" class="self-end"><i class="fa-solid fa-xmark text-2xl"></i></button>
+    <button id="closeMenu" class="self-end" aria-label="closeMenu"><i class="fa-solid fa-xmark text-2xl"></i></button>
 
     
     <section class="relative">
-        <button class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileHome')">Home <i class="fa-solid fa-chevron-down"></i></button>
+        <button class="w-full text-left py-2" aria-label="dropDown" onclick="toggleDropdown(event, 'mobileHome')">Home <i class="fa-solid fa-chevron-down"></i></button>
         <section id="mobileHome" class="hidden pl-4">
             <a href="#" class="block py-2">Services</a>
             <a href="#" class="block py-2">Portfolio</a>
@@ -230,7 +230,7 @@
     </section>
 
     <section class="relative">
-        <button class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileTours')">Tours <i class="fa-solid fa-chevron-down"></i></button>
+        <button aria-label="Tours" class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileTours')">Tours <i class="fa-solid fa-chevron-down"></i></button>
         <section id="mobileTours" class="hidden pl-4">
             <a href="#" class="block py-2">Adventure</a>
             <a href="#" class="block py-2">Cultural</a>
@@ -240,7 +240,7 @@
     </section>
 
     <section class="relative">
-      <button class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileDestinations')">Destinations <i class="fa-solid fa-chevron-down"></i></button>
+      <button aria-label="destinations" class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileDestinations')">Destinations <i class="fa-solid fa-chevron-down"></i></button>
       <section id="mobileDestinations" class="hidden pl-4">
           <a href="#" class="block py-2">Europe</a>
           <a href="#" class="block py-2">America</a>
@@ -250,7 +250,7 @@
   </section>
 
   <section class="relative">
-    <button class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileActivities')">Activities <i class="fa-solid fa-chevron-down"></i></button>
+    <button aria-label="activities" class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileActivities')">Activities <i class="fa-solid fa-chevron-down"></i></button>
     <section id="mobileActivities" class="hidden pl-4">
         <a href="#" class="block py-2">Hiking</a>
         <a href="#" class="block py-2">Scuba sectioning</a>
@@ -260,7 +260,7 @@
 </section>
 
 <section class="relative">
-  <button class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileHotels')">Hotels <i class="fa-solid fa-chevron-down"></i></button>
+  <button aria-label="hotels" class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileHotels')">Hotels <i class="fa-solid fa-chevron-down"></i></button>
   <section id="mobileHotels" class="hidden pl-4">
       <a href="#" class="block py-2">Luxury</a>
       <a href="#" class="block py-2">Budget</a>
@@ -270,7 +270,7 @@
 </section>
 
 <section class="relative">
-  <button class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileRentals')">Rental <i class="fa-solid fa-chevron-down"></i></button>
+  <button aria-label="rentals" class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileRentals')">Rental <i class="fa-solid fa-chevron-down"></i></button>
   <section id="mobileRentals" class="hidden pl-4">
       <a href="#" class="block py-2">Bike</a>
       <a href="#" class="block py-2">Cars</a>
@@ -280,7 +280,7 @@
 </section>
 
 <section class="relative">
-  <button class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileTickets')">Tickets <i class="fa-solid fa-chevron-down"></i></button>
+  <button aria-label="tickets" class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileTickets')">Tickets <i class="fa-solid fa-chevron-down"></i></button>
   <section id="mobileTickets" class="hidden pl-4">
       <a href="#" class="block py-2">Flight Tickets</a>
       <a href="#" class="block py-2">Train Tickets</a>
@@ -290,7 +290,7 @@
 </section>
 
     <section class="relative">
-        <button class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobilePages')">Pages <i class="fa-solid fa-chevron-down"></i></button>
+        <button aria-label="faqs" class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobilePages')">Pages <i class="fa-solid fa-chevron-down"></i></button>
         <section id="mobilePages" class="hidden pl-4">
             <a href="#" class="block py-2">About us</a>
             <a href="#" class="block py-2">FAQs</a>
@@ -300,7 +300,7 @@
     </section>
 
     <section class="relative">
-      <button class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileBlogs')">Blogs <i class="fa-solid fa-chevron-down"></i></button>
+      <button aria-label="travel" class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileBlogs')">Blogs <i class="fa-solid fa-chevron-down"></i></button>
       <section id="mobileBlogs" class="hidden pl-4">
           <a href="#" class="block py-2">Travel</a>
           <a href="#" class="block py-2">Destination</a>
@@ -310,7 +310,7 @@
   </section>
 
   <section class="relative">
-    <button class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileContact')">Contact <i class="fa-solid fa-chevron-down"></i></button>
+    <button aria-label="contact" class="w-full text-left py-2" onclick="toggleDropdown(event, 'mobileContact')">Contact <i class="fa-solid fa-chevron-down"></i></button>
     <section id="mobileContact" class="hidden pl-4">
         <a href="#" class="block py-2">Contact form</a>
         <a href="#" class="block py-2">Customer Support</a>
@@ -362,7 +362,7 @@
      
              <section class="flex flex-col lg:flex-row mt-12 gap-4">
              
-               <button class="hover:scale-105 w-[40%] h-[30%] lg:w-[70%] lg:h-[50%] md:mt-2 lg:w-[80%] lg:h-[70%] xl:w-[100%] xl:h-[90%] object-cover">
+               <button aria-label="image" class="hover:scale-105 w-[40%] h-[30%] lg:w-[70%] lg:h-[50%] md:mt-2 lg:w-[80%] lg:h-[70%] xl:w-[100%] xl:h-[90%] object-cover">
                  <img 
                      class="w-full h-full object-cover" 
                      src="assets/main/googleplay.png.svg" 
@@ -370,7 +370,7 @@
                  />
              </button>
              
-             <button class="hover:scale-105 w-[40%] h-[30%] lg:w-[70%] lg:h-[50%] md:mt-2 lg:w-[80%] lg:h-[70%] xl:w-[100%] xl:h-[90%] object-cover">
+             <button aria-label="image" class="hover:scale-105 w-[40%] h-[30%] lg:w-[70%] lg:h-[50%] md:mt-2 lg:w-[80%] lg:h-[70%] xl:w-[100%] xl:h-[90%] object-cover">
                <img 
                    class="w-full h-full object-cover" 
                    src="assets/main/appstore.png.svg" 
@@ -468,13 +468,14 @@
              
                      <section class="mt-8 flex items-center justify-between">
                          <button type="submit"
+                            aria-label="img"
                              class="bg-[#000000] text-[#ffffff] font-bold font-[manrope] rounded-[50px] w-[128px] h-[52px] flex items-center justify-center hover:scale-105">
-                             <img src="assets/SVG.svg" alt="search" class="h-[20px] w-[20px] mr-2 " />
+                             <img src="assets/SVG.svg" alt="user" class="h-[20px] w-[20px] mr-2 ">
                              Search
                          </button>
              
                          <a href="#" class="ml-2 flex items-center">
-                             <img src="assets/user.svg.svg" class="mr-2">
+                             <img alt = "noimage" src="assets/user.svg.svg" class="mr-2">
                              Need Some Help ?
                          </a>
                      </section>
@@ -2133,7 +2134,7 @@
               </section>
             </section>
 
-            <section id="stats" class="max-w-[1248px] flex justify-center items-center bg-[#000000] h-[228px] mt-[110px] rounded-[32px]">
+            <section id="stats" class="ml-2 mr-2 max-w-[1248px] flex justify-center items-center bg-[#000000] h-[228px] mt-[110px] rounded-[32px]">
             </section>
         
         
@@ -2725,14 +2726,15 @@
     
                </section>
     
-              <footer class="flex flex-row items-center justify-center mt-8 gap-2">
+              <footer  aria-hidden="true" class="flex flex-row items-center justify-center mt-8 gap-2">
                 <button
                 id = "flight_scrollLeft"
                 aria-label = "scroll left"
+                aria-hidden="true"
                 class="fa-solid fa-arrow-left bg-[#E4E6E8] rounded-full p-2 hover:scale-110"></button>
                 <button
                    id = "flight_scrollRight"
-                   aria-label = "scroll right"
+                   tabindex="-1"
                   class="fa-solid fa-arrow-right bg-[#E4E6E8] rounded-full p-2 hover:scale-110"
                 ></button>
               </footer>
@@ -2771,7 +2773,7 @@
     
           <!-- Second Column: Responsive Structure -->
           <section class="flex flex-col gap-4 md:grid md:grid-cols-1 w-full sm:grid sm:grid-cols-2 mt-2 md:mt-8">
-              <section class="support_best bg-[#D4F6C0] flex flex-col justify-center items-baseline p-6 h-full relative  rounded-[32px]" style="background-size: contain; background-position: bottom center; background-repeat: no-repeat;">
+              <section class="support_best bg-[#D4F6C0] flex flex-col justify-center items-baseline p-6 h-full relative  rounded-[32px]" style="background-image: url('https://s3-alpha-sig.figma.com/img/1195/b41f/1a8f76b1f0664daf6e50bce5d93eaebc?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Jarkzm2eaCnTcr6tPPfWU4iSPZYrr2LUErx4-KNX7s8XZOLPx~LbcWhVq6y7ZuU0AaqYro3qpzQkiOaQCniPNfmgrFGK2iZXfLylHwYWBlOxbRPik~zOvhhnUq30enB45CGeorMAZ7Any5CAkbX2BuTPP5IUbmYlCT-HYXAzdY~Fm7ekdLIIrcjVPM9dpE~EfRmNNXJ~SfBSY2ZmItHKnLK69BkybNJn5G5zlHHLHSiniipzrnbNhawBcOYJ0AN1EmIJA-eGZE80Y7buvHw~GFoTq4vVvp6UfDW1DWkysJmuFRMlulTUuVT3q03MM3OZ50SWOk6gQ7ueZiUTlS6cbg__'); background-size: contain; background-position: bottom center; background-repeat: no-repeat;">
                   <h1 class="text-xl font-bold">Best Price</h1>
                   <p class="text-sm font-semibold mt-2">Price match within 48 hours of order <br> confirmation</p>
                   <button class="bg-[#FEFA17] px-4 py-2 rounded-full mt-4 hover:scale-105 relative flex items-center gap-2">
@@ -2950,9 +2952,9 @@
               <div class="custom-dropdown w-full md:w-1/4">
                   <div class="selected" data-name="category">Categories</div>
                   <div class="dropdown-list">
-                      <div class="option" data-value="Tech">Tech</div>
-                      <div class="option" data-value="Business">Business</div>
-                      <div class="option" data-value="Health">Health</div>
+                      <div class="option" data-value="Tourism">Tourism</div>
+                      <div class="option" data-value="Cultural">Cultural</div>
+                      <div class="option" data-value="Heritage">Heritage</div>
                   </div>
               </div>
       
@@ -2966,7 +2968,7 @@
               </div>
       
               <!-- Rating Dropdown -->
-              <div class="custom-dropdown w-full md:w-1/4">
+              <div class="custom-dropdown w-full md:w-full">
                   <div class="selected" data-name="rating">Review</div>
                   <div class="dropdown-list">
                       <div class="option" data-value="5 Stars">5 Stars</div>
@@ -2991,6 +2993,10 @@
 
           <section class=" mt-12 flex flex-wrap gap-2 justify-around">
             <section
+              data-category="Tourism"
+              data-price="Paid"
+              data-rating="5 Stars"
+              data-duration="Short"
               class="destinations_card p-4 flex flex-col items-start overflow-hidden relative w-[287px] h-[223px] border border-solid border-zinc-200 rounded-3xl transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl hover:border-gray-300"
             >
              <figure>
@@ -3017,6 +3023,10 @@
             </section>
 
             <section
+            data-category="Tourism"
+            data-price="Paid"
+            data-rating="5 Stars"
+            data-duration="Short"
               class="destinations_card p-4 flex flex-col items-start overflow-hidden relative w-[287px] h-[223px] border border-solid border-zinc-200 rounded-3xl transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl hover:border-gray-300"
             >
              <figure>
@@ -3043,6 +3053,10 @@
             </section>
             
             <section
+            data-category="Tourism"
+              data-price="Paid"
+              data-rating="5 Stars"
+              data-duration="Short"
               class="destinations_card p-4 flex flex-col items-start overflow-hidden relative w-[287px] h-[223px] border border-solid border-zinc-200 rounded-3xl transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl hover:border-gray-300"
             >
              <figure>
@@ -3069,6 +3083,10 @@
             </section>
 
             <section
+            data-category="Heritage"
+            data-price="Paid"
+            data-rating="5 Stars"
+            data-duration="Long"
               class="destinations_card p-4 flex flex-col items-start overflow-hidden relative w-[287px] h-[223px] border border-solid border-zinc-200 rounded-3xl transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl hover:border-gray-300"
             >
              <figure>
@@ -3095,6 +3113,10 @@
             </section>
 
             <section
+            data-category="Heritage"
+              data-price="Paid"
+              data-rating="5 Stars"
+              data-duration="Long"
               class="destinations_card p-4 flex flex-col items-start overflow-hidden relative w-[287px] h-[223px] border border-solid border-zinc-200 rounded-3xl transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl hover:border-gray-300"
             >
              <figure>
@@ -3121,6 +3143,10 @@
             </section>
 
             <section
+            data-category="Heritage"
+            data-price="Paid"
+            data-rating="5 Stars"
+            data-duration="Long"
               class="destinations_card p-4 flex flex-col items-start overflow-hidden relative w-[287px] h-[223px] border border-solid border-zinc-200 rounded-3xl transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl hover:border-gray-300"
             >
              <figure>
@@ -3147,6 +3173,10 @@
             </section>
 
             <section
+            data-category="Tech"
+            data-price="Paid"
+            data-rating="5 Stars"
+            data-duration="Long"
               class="destinations_card p-4 flex flex-col items-start overflow-hidden relative w-[287px] h-[223px] border border-solid border-zinc-200 rounded-3xl transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl hover:border-gray-300"
             >
              <figure>
@@ -3171,9 +3201,6 @@
 
               </section>
             </section>
-
-            
-
 
             <section
               class="p-4 flex flex-col items-start overflow-hidden relative w-[287px] h-[223px] bg-[#FEFA17] border border-solid border-zinc-200 rounded-3xl transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl hover:border-gray-300"
@@ -3235,44 +3262,49 @@
             <section
               class="flex items-center justify-center mt-8 h-auto mx-0 sm:mx-24 md:mx-40 lg:mx-60 xl:mx-80 w-full"
             >
-            <section id = "videoGrid" class="md:grid-cols-[40%_28%_28%] p-8 w-full grid grid-cols-1 md:grid-cols-3 gap-4 h-auto md:h-auto">
+            <section id = "videoGrid" class="lg:grid-cols-[40%_28%_28%] p-8 w-full grid grid-cols-1 lg:grid-cols-3 gap-4">
         
               <!-- First Column (Full Height Video) -->
-              <section class="bg-gray-800 rounded-[32px] overflow-hidden md:h-full h-80 transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl">
-                  <video class="w-full h-full object-cover " poster="assets/video/video.png.svg" controls>
-                      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+              <section class="bg-gray-800 rounded-[32px] overflow-hidden transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl">
+                  <video class="w-full h-full object-cover " controls>
+                      <source src="https://videocdn.cdnpk.net/videos/3476f5ce-80eb-5d69-925b-03b4fabce75f/horizontal/previews/watermarked/large.mp4" type="video/mp4">
+                      <track kind="captions" label="english_captions">
                       Your browser does not support the video tag.
                   </video>
               </section>
       
               <!-- Second Column (Two Equal Sections) -->
               <section class="grid grid-rows-2 gap-2 md:h-full ">
-                  <section class="bg-gray-700 rounded-[32px] overflow-hidden h-48 md:h-auto transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl">
-                      <video class="w-full h-full object-cover" controls poster = "assets/video/video2.png.svg">
-                          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                  <section class="bg-gray-700 rounded-[32px] overflow-hidden transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl">
+                      <video class="w-full  h-full object-cover" controls>
+                          <source src="https://videocdn.cdnpk.net/videos/ee071a6d-44a4-4ade-9719-c311b4c6bd65/horizontal/previews/clear/large.mp4?token=exp=1742258668~hmac=c8941778ced6a82d25c4b08c3eb00611546f71dedf5fb72849175272132832a9" type="video/mp4">
+                          <track kind="captions" srclang="en" label="english_captions">
                           Your browser does not support the video tag.
                       </video>
                   </section>
-                  <section class="bg-gray-600 rounded-[32px] overflow-hidden h-48 md:h-auto transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl">
-                      <video class="w-full h-full object-cover" controls poster = "assets/video/video3.png.svg">
-                          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                  <section class="bg-gray-600 rounded-[32px] overflow-hidden  transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl">
+                      <video class="w-full h-full object-cover" controls>
+                          <source src="https://videocdn.cdnpk.net/videos/73b8ef0c-dd4e-4470-b268-96f819194227/horizontal/previews/clear/large.mp4?token=exp=1742258734~hmac=aa4b138883e13ff778d256d5126ee0385e28bde6e52feeccf96165eb0aaaf299" type="video/mp4">
                           Your browser does not support the video tag.
+                          <track kind="captions" srclang="en" label="english_captions">
                       </video>
                   </section>
               </section>
       
               <!-- Third Column (30%-70% Split) -->
               <section class="grid grid-cols-2 md:grid-cols-1 md:grid-rows-[35%_63%] gap-4 md:h-full">
-                  <section class="bg-gray-500 rounded-[32px] overflow-hidden h-auto md:h-auto transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl">
-                      <video class="w-full h-full object-cover" controls poster = "assets/video/video4.png.png">
-                          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                  <section class="bg-gray-500 rounded-[32px] overflow-hidden transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl">
+                      <video class="w-full h-full object-cover" controls>
+                          <source src="https://videocdn.cdnpk.net/videos/c6d1f838-e2ec-456e-9c83-0ad7986b03eb/horizontal/previews/clear/small.mp4?token=exp=1742258632~hmac=ec6539037ef700c198756bf6021b17df7d66572df336a859eb7ddc6954e47808" type="video/mp4">
                           Your browser does not support the video tag.
+                          <track kind="captions" label="english_captions">
                       </video>
                   </section>
-                  <section class="bg-gray-400 rounded-[32px] overflow-hidden h-48 md:h-auto transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl">
-                      <video class="w-full h-full object-cover" controls poster = "assets/video/video5.png.svg">
-                          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                  <section class="bg-gray-400 rounded-[32px] overflow-hidden transition-transform duration-500 delay-300 ease-in-out hover:scale-105 hover:shadow-xl">
+                      <video class="w-full h-full object-cover" controls>
+                          <source src="https://videocdn.cdnpk.net/videos/cf07f073-368e-44a2-b805-12cc45c776e2/horizontal/previews/clear/small.mp4?token=exp=1742258632~hmac=302580139361834be442f823c9f5ea5733f1c0d35d2362d8f9a27bfbfe47a826" type="video/mp4">
                           Your browser does not support the video tag.
+                          <track kind="captions" label="english_captions">
                       </video>
                   </section>
               </section>
@@ -4365,7 +4397,7 @@
           </span>
         </section>
           <img
-            src="assets/footer.png"
+            src="https://s3-alpha-sig.figma.com/img/f42a/dff0/fc5f603897f4395b805dad86117b8b99?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Ma4yyBjA~eMU2yQCPy~MKke5UB6V8pNX-v-OdFBOlKR~ls6BdrnO6wzntGB-apd2yzNpbagEwjEpy1~Ke1XiRauyGRtS-lf1La2Q2VwwQ5ZOZGrbr3qMH34OvGdwCEgGr4fEdKDczcZflYN36Ss-koGQPGi7L4NkAs0EnWH2Cjp5f-Rs0mngOujF2LJz1kl-4Uat7p9~ilLEYpU9acwX8g~Paz~mjg-q683r7Q3Q7dcYEHKL1qQFhrpPxQ1pRV2pNd7igNYp~knmRbbovo-e6GUfM684npp23abzrobiH5-LCjs~2UWbHjdz9B-E9op2oNjOsFOdbjir2HBguaOVfQ__"
             alt="Footer Image"
             class="hidden sm:block bottom-0 lg:w-full lg:max-h-40 object-fit"
           />
@@ -4377,11 +4409,11 @@
 
     <!-- Chat Icon -->
     <section id="chat-icon" onclick="toggleChatbot()" 
-        class="text-3xl fixed bottom-16 right-16 bg-blue-600 text-white p-4 rounded-full shadow-lg cursor-pointer hover:bg-blue-700 transition hover:scale-110">
+        class="text-3xl fixed bottom-16 right-8 sm:right-16 bg-blue-600 text-white p-4 rounded-full shadow-lg cursor-pointer hover:bg-blue-700 transition hover:scale-110">
         💬
     </section>
 
-    <section id="chat-container" class="fixed bottom-20 right-28 w-96 bg-white rounded-2xl shadow-2xl hidden flex-col items-stretch overflow-hidden">
+    <section id="chat-container" class="z-50 fixed bottom-20 right-28 w-56 sm:w-96 bg-white rounded-2xl shadow-2xl hidden flex-col items-stretch overflow-hidden">
         <section class="bg-blue-600 text-white p-3 flex justify-between items-center">
             <span class="font-bold">✈️ Travel Chatbot</span>
             <button class="text-white text-lg font-bold hover:scale-105" onclick="toggleChatbot()">
@@ -4389,7 +4421,7 @@
             </button>
             
         </section>
-        <section id="chatbox" class="h-64 p-3 overflow-y-auto bg-gray-100 space-y-2"></section>
+        <section id="chatbox" class="z-50 h-64 p-3 overflow-y-auto bg-gray-100 space-y-2"></section>
         <section class="p-3 bg-white flex border-t">
             <input type="text" id="userInput" class="flex-1 p-2 border rounded-lg focus:outline-none" placeholder="Ask about travel...">
             <button onclick="sendMessage()" class="ml-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">➤</button>
@@ -4398,12 +4430,12 @@
 
      <script src="script.js"></script>
      <script>
-     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("serviceworker.js")
-        .then(() => console.log("Service Worker Registered"))
-        .catch((error) => console.log("Service Worker Registration Failed:", error));
-    }
-     </script>
-    
+      if ("serviceWorker" in navigator) {
+       navigator.serviceWorker.register("serviceworker.js")
+         .then(() => console.log("Service Worker Registered"))
+         .catch((error) => console.log("Service Worker Registration Failed:", error));
+     }
+      </script>
+ 
 </body>
 </html>

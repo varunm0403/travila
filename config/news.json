@@ -1,7 +1,7 @@
 [
    {
     "tag" : "Cultural",
-    "image" : "assets/news/news.png.svg",
+    "image" : "/assets/news/news.png.svg",
     "date" : "2021-06-01",
     "duration" : "6 mins",
     "comments" : "38 comments",
@@ -9,7 +9,7 @@
    },
    {
     "tag" : "Travel",
-    "image" : "assets/news/news2.png.svg",
+    "image" : "/assets/news/news2.png.svg",
     "date" : "2021-06-01",
     "duration" : "6 mins",
     "comments" : "38 comments",
@@ -17,7 +17,7 @@
    },
    {
     "tag" : "Discovery",
-    "image" : "assets/news/news3.png.svg",
+    "image" : "/assets/news/news3.png.svg",
     "date" : "2021-06-01",
     "duration" : "6 mins",
     "comments" : "38 comments",

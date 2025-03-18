@@ -221,7 +221,7 @@ document.querySelectorAll(".tab-link").forEach(link => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/config/recommended.json") // Fetch JSON data from external file
+  fetch("config/recommended.json") // Fetch JSON data from external file
 .then(response => response.json()) // Convert response to JSON
 .then(articles => {
  const cards = document.querySelectorAll(".recommended-card");
@@ -345,7 +345,7 @@ document.addEventListener("DOMContentLoaded", fetchStats);
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/config/flights.json") // Fetch JSON data from external file
+  fetch("config/flights.json") // Fetch JSON data from external file
 .then(response => response.json()) // Convert response to JSON
 .then(articles => {
  const cards = document.querySelectorAll(".flight-card");
@@ -417,7 +417,7 @@ updateButtonState();
 
 document.addEventListener("DOMContentLoaded", async function () {
   try {
-    const response = await fetch("/config/support.json"); // Adjust the path based on your file location
+    const response = await fetch("config/support.json"); // Adjust the path based on your file location
     const data = await response.json();
 
     const section = document.querySelector(".support_section"); // Target the section
@@ -437,7 +437,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 //love
 document.addEventListener("DOMContentLoaded", async function () {
   try {
-      const response = await fetch("/config/love.json"); // Fetch JSON data from external file
+      const response = await fetch("config/love.json"); // Fetch JSON data from external file
       const data = await response.json(); // Convert response to JSON
 
       document.getElementById("love_bg").src = data.bg_image;
@@ -461,7 +461,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 //popdes
 document.addEventListener("DOMContentLoaded", async function () {
   try {
-      const response = await fetch("/config/destinations.json"); // Fetch JSON data from external file
+      const response = await fetch("config/destinations.json"); // Fetch JSON data from external file
       const articles = await response.json(); // Convert response to JSON
 
       const cards = document.querySelectorAll(".destinations_card");
@@ -552,7 +552,7 @@ fetch(
 
 //faqs
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("/config/faqs.json") // Fetch JSON data
+  fetch("config/faqs.json") // Fetch JSON data
       .then(response => response.json())
       .then(articles => {
           const faqContainer = document.querySelector(".faq-container"); // Parent container
@@ -620,7 +620,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //news
 document.addEventListener("DOMContentLoaded", async function () {
   try {
-      const response = await fetch("/config/news.json"); // Fetch JSON data from external file
+      const response = await fetch("config/news.json"); // Fetch JSON data from external file
       const articles = await response.json(); // Convert response to JSON
 
       const populateNewsCards = (selector) => {

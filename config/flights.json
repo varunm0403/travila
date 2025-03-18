@@ -11,7 +11,7 @@
     {
         "image" : "assets/flights/flight2.png.svg",
         "date_from" : "9 JUN 2024",
-        "from" : "New-York",
+        "from" : "London",
         "rate" : "$288.15",
         "seats" : "18 seats left",
         "to":"Paris",
@@ -19,7 +19,7 @@
        }, {
         "image" : "assets/flights/flight4.png.svg",
         "date_from" : "9 JUN 2024",
-        "from" : "New-York",
+        "from" : "India",
         "rate" : "$288.15",
         "seats" : "18 seats left",
         "to":"New York",

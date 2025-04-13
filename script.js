@@ -1,4 +1,3 @@
-//script for hero section
 document.querySelectorAll('.tab-link').forEach(link => {
   link.addEventListener('click', function(event) {
       event.preventDefault();
@@ -682,7 +681,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 //
-const apiKey1 = "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"; // Replace with your OpenRouter API key
+const apiKey1 = "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";
 const apiUrl = "https://openrouter.ai/api/v1/chat/completions";
 
 // Toggle chatbot visibility
